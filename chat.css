@@ -13,4 +13,29 @@ nav {
     background: orange;
     height: 100%;
     height: 93vh;
+    padding: 0 !important;
+}
+
+
+/* Input Massage */
+#input-massage-div{
+    position: absolute;
+    bottom: 0;
+    background: darkcyan;
+    width: 100%;
+    height: 10%;
+}
+
+#btn-send{
+    display: inline;
+    float: left;
+    height: 100%;
+    width: 10%;
+    border-radius:0 !important;
+}
+
+#input-massage{
+    width: 90%;
+    height: 100%;
+    border-radius:0 !important;
 }
