@@ -1,9 +1,16 @@
-body{
-    margin: 0 !important;
+nav {
+    height: 7vh !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 #chat-menu{
     background: pink;
-    height: 100vh;
-    margin: 0 !important
-} 
+    height: 93vh;
+}
+
+#chat-window{
+    background: orange;
+    height: 100%;
+    height: 93vh;
+}
