@@ -4,13 +4,17 @@ nav {
     margin-bottom: 0 !important;
 }
 
+
+/* ------------ Chat Menu ------------ */
 #chat-menu{
-    background: pink;
+    background: #282E36;
     height: 93vh;
 }
+/* ------------ End Chat Menu ------------ */
 
+/* ------------ Chat Window ------------ */
 #chat-window{
-    background: orange;
+    background: #F4F4F4;
     height: 100%;
     height: 93vh;
     padding: 0 !important;
@@ -21,7 +25,9 @@ nav {
 #input-massage-div{
     position: absolute;
     bottom: 0;
-    background: darkcyan;
+    background: #EEECEC;
+    border: 1px solid ;
+    border-color: #EFEEEE;
     width: 100%;
     height: 10%;
 }
@@ -31,11 +37,24 @@ nav {
     float: left;
     height: 100%;
     width: 10%;
-    border-radius:0 !important;
+    /* border-radius:100% !important; */
 }
 
 #input-massage{
-    width: 90%;
+    width: 88%;
     height: 100%;
-    border-radius:0 !important;
+    border-radius: 20px !important;
+    margin-left: 11%;
 }
+
+#who-talk{
+    background: #0084FE;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+}
+#text-who-talk{
+    color: white;
+    margin-left: 50px;
+}
+/* ------------ End Chat Window ------------ */
