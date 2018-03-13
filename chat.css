@@ -1,0 +1,9 @@
+body{
+    margin: 0 !important;
+}
+
+#chat-menu{
+    background: pink;
+    height: 100vh;
+    margin: 0 !important
+} 
