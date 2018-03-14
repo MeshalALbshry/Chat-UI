@@ -4,7 +4,6 @@ nav {
     margin-bottom: 0 !important;
 }
 
-
 /* ------------ Chat Menu ------------ */
 #chat-menu{
     background: #282E36;
@@ -21,10 +20,10 @@ nav {
 }
 
 
-/* Input Massage */
+/* Input Massage Div */
 #input-massage-div{
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
     background: #EEECEC;
     border: 1px solid ;
     border-color: #EFEEEE;
@@ -46,15 +45,47 @@ nav {
     border-radius: 20px !important;
     margin-left: 11%;
 }
+/* End Input Masssage Div */
 
 #who-talk{
     background: #0084FE;
-    position: absolute;
+    /* position: relative; */
     height: 10%;
     width: 100%;
 }
-#text-who-talk{
+#text-who-talk {
     color: white;
-    margin-left: 50px;
+    margin-top: 0 !important;
 }
+
+#massages{
+    height: 80%;
+    overflow: scroll;
+}
+/* Massages in the box */
+.msg-ui{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .msg-ui li{
+    display:inline-block;
+    clear: both;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .him{
+    background: #eee;
+    float: left;
+    margin-left:8px;
+  }
+  .me{
+    float: right;
+    background: #0084ff;
+    color: #fff;
+    margin-right:8px;
+  }
+
 /* ------------ End Chat Window ------------ */
