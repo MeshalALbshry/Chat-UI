@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="chat.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="app.js"></script>
 </head>
@@ -34,15 +36,14 @@
             <h1 id="text-who-talk">Who Talks</h1>
         </div>
 
-        <div id="massages">
-            <ul class="msg-ui" id="msg">
-            </ul>
+        <div id="messages">
+            <ul class="msg-ui" id="msg"></ul>
         </div>
 
-        <div id="input-massage-div">
+        <div id="input-message-div">
             <!-- Input Masssage Dive -->
+            <input id="input-message" type="text" class="form-control" placeholder="Type Here ...">            
             <button id="btn-send" class="btn btn-success">Send</button>
-            <input id="input-massage" type="text" class="form-control" placeholder="Type Here ...">
         </div>
     </div>
 </body>

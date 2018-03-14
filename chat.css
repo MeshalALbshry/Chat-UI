@@ -20,8 +20,8 @@ nav {
 }
 
 
-/* Input Massage Div */
-#input-massage-div{
+/* Input Message Div */
+#input-message-div{
     /* position: absolute;
     bottom: 0; */
     background: #EEECEC;
@@ -36,14 +36,16 @@ nav {
     float: left;
     height: 100%;
     width: 10%;
+    margin-left: 10px;
     /* border-radius:100% !important; */
 }
 
-#input-massage{
+#input-message{
     width: 88%;
     height: 100%;
+    float: left;
     border-radius: 20px !important;
-    margin-left: 11%;
+    /* margin-left: 11%; */
 }
 /* End Input Masssage Div */
 
@@ -58,8 +60,9 @@ nav {
     margin-top: 0 !important;
 }
 
-#massages{
+#messages{
     height: 80%;
+    padding: 1px;
     overflow: scroll;
 }
 /* Massages in the box */
@@ -72,16 +75,16 @@ nav {
     display:inline-block;
     clear: both;
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 17px;
     margin-bottom: 5px;
     margin-top: 5px;
   }
-  .him{
+  #him{
     background: #eee;
     float: left;
     margin-left:8px;
   }
-  .me{
+  #me{
     float: right;
     background: #0084ff;
     color: #fff;
