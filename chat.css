@@ -90,5 +90,11 @@ nav {
     color: #fff;
     margin-right:8px;
   }
+  #brodcast{
+    background: rgb(245, 162, 162);
+    border: rgb(241, 0, 0) solid 1.5px;
+    float: left;
+    margin-left:8px;
+  }
 
 /* ------------ End Chat Window ------------ */
