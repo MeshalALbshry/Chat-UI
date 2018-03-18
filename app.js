@@ -30,6 +30,13 @@ $(document).ready(function () {
         $('#text-who-talk').text(userId)
     })
 
+    //when click on group
+    $('.group-item').click(function(){
+        var groupId = $(this).attr('id')
+        console.log(groupId)
+        $('#text-who-talk').text(groupId)
+    })
+
 });
 
 

@@ -26,13 +26,20 @@ nav {
     color:white
 }
 .group-item{
-
+    color:white
 }
+.group-item .icon{
+    color: yellow;
+}
+
+.group-item:hover{
+    background: #0B7C08;
+}
+
+
 .icon-item{
     color: #FFE05B;
 }
-
-
 
 .user-item .icon{
     color: yellow;
