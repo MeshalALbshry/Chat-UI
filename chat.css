@@ -12,19 +12,30 @@ nav {
     overflow: scroll;
 }
 
-.group-menu{
-    height: 50px;
-    background: #FFE05B;
+.groups-menu{
+    background-color:#84C856 ;
+     color:white
+}
+.users-menu{
+    background-color:#84C856 ;
+    color:white ;
+    border-top:1px solid black;
 }
 
+.user-item{
+    color:white
+}
+.group-item{
+
+}
 .icon-item{
     color: #FFE05B;
 }
 
-.contact-item{
-    margin-top: 2px;
-    height: 50px;
-    background: #2B2B2B;
+
+
+.user-item .icon{
+    color: yellow;
 }
 
 #text {
@@ -36,15 +47,26 @@ nav {
     width: 15px;
     height: 15px;
     border-radius: 100px;
+    margin-left: 70px;
+    margin-top: 3px;
 }
 .contact-status-offline{
     background: #BBBBBB;
     width: 15px;
     height: 15px;
     border-radius: 100px;
+    margin-left: 70px;
+    margin-top: 3px;
 }
-.contact-item:hover{
+
+#status{
+    padding-top:9px;
+}
+.user-item:hover{
     background: #0B7C08;
+}
+.icon{
+    padding-top:9px;
 }
 /* ------------ End Chat Menu ------------ */
 
