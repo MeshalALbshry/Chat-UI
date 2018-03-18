@@ -37,6 +37,11 @@ $(document).ready(function () {
         $('#text-who-talk').text(groupId)
     })
 
+    function scrollDown(){
+        $('#messages').animate({
+           scrollTop: $('#messages').get(0).scrollHeight}, 0);
+    }
+
 });
 
 
