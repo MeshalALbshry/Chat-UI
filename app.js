@@ -7,6 +7,8 @@ $(document).ready(function () {
         //Scroll down
         scrollDown()
     })
+
+    
     var bordcast = "التعميم هو قانون منطقي يحلل تفسير الشامل بملاحظة المحدود. والفكرة تطرح ان في نطاق ما، او مجموعةعناصر لها خصائص مشتركة، فانه يمكن اعتماد نتيجة عامل واحد كنتيجة شامله للك    عندما يقوم العقل بالتعميم، فإنه يستخراج جوهر مفهوم على أساس تحليله من أوجه التشابه من العديد من الكائنات المنفصلة. فالتبسيط الناتج يسمح بالفكير بمستويات أعلى";
     var count = 0;
     setInterval(function(){
@@ -21,12 +23,12 @@ $(document).ready(function () {
         scrollDown()
     },24000)
 
-
-    function scrollDown(){
-        $('#messages').animate({
-            scrollTop: $('#messages').get(0).scrollHeight}, 0);
-    }
-
+    //when click on user
+    $('.user-item').click(function(){
+        var userId = $(this).attr('id')
+        console.log(userId)
+        $('#text-who-talk').text(userId)
+    })
 
 });
 
