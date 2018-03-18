@@ -42,6 +42,27 @@ $(document).ready(function () {
            scrollTop: $('#messages').get(0).scrollHeight}, 0);
     }
 
+    //When collapse is hide
+    $('#groups').on('hidden.bs.collapse', function () {
+        alert('hide');
+    })
+
+    //When collapse is show
+    $('#groups').on('show.bs.collapse', function () {
+        alert('show');
+    })
+
+    //When collapse is hide
+    $('#users').on('hidden.bs.collapse', function () {
+        alert('hide');
+    })
+    
+    //When collapse is show
+    $('#users').on('show.bs.collapse', function () {
+        alert('show');
+    })
+
+    
 });
 
 
